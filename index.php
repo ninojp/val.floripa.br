@@ -10,8 +10,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
-    <header class="">
+    <header class="header_val">
+        <div class="col-4">
+            <img class="img_logo_val" src="./assets/imgs/val_logo.png" alt="Logo Val">
+        </div>
+        <div class="col-8 div_menu">
+            <ul>
+                <ol>Home</ol>
+                <ol>Sobre</ol>
+            </ul>
+        </div>
         <h1>Val - Consulta Espiritual</h1>
+        <h2>Venha conhecer meu trabalho, na ilha da Magia Florianópolis</h2>
     </header>
     <main class="">
         <div class="row">

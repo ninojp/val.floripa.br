@@ -7,5 +7,17 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(225, 164, 253);
+    max-width: 1366px;
+    background-color: rgb(225, 164, 253) !important;
+}
+.header_val{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_logo_val{
+    margin: 2em 2em;
+}
+.div_menu{
+    display: flex;
+    
 }
