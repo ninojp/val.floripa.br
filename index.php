@@ -15,13 +15,17 @@
             <img class="img_logo_val" src="./assets/imgs/val_logo.png" alt="Logo Val">
         </div>
         <div class="col-8 div_menu">
-            <ul>
-                <ol>Home</ol>
-                <ol>Sobre</ol>
+            <ul class="ul_menu">
+                <ol class="ol_menu"><a href="./index.php" class="link_menu">Início</a></ol>
+                <ol class="ol_menu"><a href="./sobre_val.php" class="link_menu">Sobre</a></ol>
             </ul>
         </div>
-        <h1>Val - Consulta Espiritual</h1>
-        <h2>Venha conhecer meu trabalho, na ilha da Magia Florianópolis</h2>
+        <div class="col-12 text-center">
+            <h1>Val - Consulta Espiritual</h1>
+        </div>
+        <div class="col-12 text-center">
+            <h2>Venha conhecer meu trabalho, na ilha da Magia Florianópolis</h2>
+        </div>
     </header>
     <main class="">
         <div class="row">
