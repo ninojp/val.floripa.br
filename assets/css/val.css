@@ -13,17 +13,21 @@ body{
 .header_val{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(225, 164, 253);
     background-image: url("../../assets/imgs/fundo_header.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
 }
 .img_logo_val{
-    margin: 2em 2em;
+    margin: 5em 2em 1em 2em;
 }
 .div_menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
     align-items: center;
-    padding-right: 3em;
+    padding-right: 4em;
 }
 .ul_menu{
     list-style: none;
@@ -34,8 +38,84 @@ body{
     list-style: none;
     font-size: 2em;
     font-weight: 700;
-    color: #fff;
 }
 .link_menu{
     text-decoration: none;
+    color: #fff;
 }
+.h1_titulo{
+    font-size: 3em;
+    margin-left: 2em;
+}
+.h2_subtit{
+    color: #fff;
+    margin-left: 1em;
+    margin-top: 2em;
+    text-shadow: 1px 1px 2px black;
+}
+.p_texto_desc{
+    max-width: 70%;
+    background-color: rgba(0, 0, 0, 0.439);
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    color: #fff;
+}
+.main_page_val{
+    display: block;
+}
+.section_horario{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(225, 164, 253);
+    background-image: url("../../assets/imgs/por-do-sol-ceu-azul.jpg");
+    /* background: content-box radial-gradient(rgba(217, 220, 20, 0.195), rgba(135, 207, 235, 0.121)); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.p_horarios{
+    font-size: 2em;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.192); */
+    margin-top: 2em;
+    padding: 2em;
+}
+.section_desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(225, 164, 253);
+    background-image: url("../../assets/imgs/sunset_mar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 8em 2em;
+}
+.div_descri{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #ffffff9d;
+}
+.p_descri{
+    padding: 1em;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+
+.row_footer{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 6em;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
