@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header_val">
-        <div class="col-4">
+        <div class="col-4 div_img_logo">
             <img class="img_logo_val" src="./assets/imgs/val_logo.png" alt="Logo Val">
         </div>
         <div class="col-8 div_menu">
@@ -49,30 +49,34 @@
             </div>
         </section>
         <section class="section_desc">
-            <div class="col-3 div_descri">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
                     SAÚDE<br>
                     Saúde, física, mental e espiritual não se adquire e sim se conquista!
                     Saiba que o equilíbrio entre as três partes que compõem o ser humano deve estar em homeostasia, pois o bem estar físico depende o do seu estado psicológico que está ligado diretamente com seu lado espiritual.
                 </p>
             </div>
-            <div class="col-3 div_descri">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
                     AMOR<br>                     
-                    Se você está com problemas no seu relacionamentio ou buscando a sua outra metade
-                     compreender melhor seu lado emocional e espiritual, venha me conhecer  e assim como milhares de pessoas mude sua vida para melhor.
+                    Se você está com problemas no seu relacionamento ou buscando a sua outra metade.<br>
+                    Eu acredito que todos têm o poder de mudar suas vidas para melhor e estou aqui para ajudá-lo em sua jornada.
+
                 </p>
             </div>
-            <div class="col-3 div_descri">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
                     PROFISSIONAL<br>
-                    Conheça e entenda o seu passado para poder tomar decisões sábias no presente e ter um futuro prospero e feliz. 
-                    buscando compreender melhor seu lado emocional e espiritual, venha me conhecer e assim como milhares de pessoas mude sua vida para melhor.
+                    Conheça e entenda mais a si mesmo para encontrar clareza e sabedoria e poder tomar decisões sábias no presente e ter um futuro prospero e feliz.<br> 
+                    Buscando compreender melhor seu lado emocional e espiritual, venha me conhecer e assim como milhares de pessoas mude sua vida para melhor.
+
                 </p>
             </div>
         </section>
         <section class="section_local" id="sect_local">
-            <p>Google location</p>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 div_mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1180.199124802853!2d-48.43183973364192!3d-27.574880015567615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1686514941218!5m2!1spt-BR!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
     <footer class="row row_footer">
@@ -81,7 +85,6 @@
         <div class="col-3 text-center">Facebook</div>
         <div class="col-3 text-center">Instagram</div>
     </footer>
-    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>

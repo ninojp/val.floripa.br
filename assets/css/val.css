@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 body{
-    max-width: 1366px;
+    /* max-width: 1366px; */
     background-color: rgb(225, 164, 253) !important;
 }
 .header_val{
@@ -19,7 +19,13 @@ body{
     background-position: right;
     background-size: cover;
 }
+.div_img_logo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
 .img_logo_val{
+    width: 100%;
     margin: 5em 2em 1em 2em;
 }
 .div_menu{
@@ -108,7 +114,14 @@ body{
     color: black;
     text-align: center;
 }
-
+.section_local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_mapa{
+    max-height: 450px;
+}
 .row_footer{
     display: flex;
     flex-wrap: wrap;
