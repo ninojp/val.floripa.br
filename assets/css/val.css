@@ -9,12 +9,15 @@
 body{
     /* max-width: 1366px; */
     background-color: rgb(225, 164, 253) !important;
+    overflow-x: hidden;
 }
+
 .header_val{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     background-color: rgb(225, 164, 253);
-    background-image: url("../../assets/imgs/fundo_header.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.031), rgba(0, 0, 0, 0.814)), url("../../assets/imgs/fundo_header_v2.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -23,17 +26,18 @@ body{
     display: flex;
     flex-wrap: wrap;
     max-width: 450px;
+    margin: 4em 1em 0em 4em;
 }
 .img_logo_val{
     width: 100%;
-    margin: 5em 2em 1em 2em;
+    padding: 2em 0em 0em 3em;
 }
 .div_menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
     align-items: center;
-    padding-right: 4em;
+    padding-right: 1em;
 }
 .ul_menu{
     list-style: none;
@@ -48,70 +52,88 @@ body{
 .link_menu{
     text-decoration: none;
     color: #fff;
+    text-shadow: 1px 1px 3px black;
 }
 .h1_titulo{
-    font-size: 3em;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    font-size: 4em;
     margin-left: 2em;
+    /* margin-top: 1em; */
 }
 .h2_subtit{
     color: #fff;
+    font-size: 2.2em;
     margin-left: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
     text-shadow: 1px 1px 2px black;
 }
 .p_texto_desc{
-    max-width: 70%;
+    max-width: 75%;
     background-color: rgba(0, 0, 0, 0.439);
     border-radius: 10px;
     margin-left: 2em;
     margin-bottom: 2em;
     padding: 0.5em;
     color: #fff;
+    font-size: 1.2em;
 }
 .main_page_val{
     display: block;
+    width: 100%;
 }
 .section_horario{
     display: flex;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(225, 164, 253);
-    background-image: url("../../assets/imgs/por-do-sol-ceu-azul.jpg");
+    background-image: linear-gradient(rgba(0, 25, 215, 0.09), rgba(0, 0, 0, 0.549)), url("../../assets/imgs/por-do-sol-ceu-azul.jpg");
     /* background: content-box radial-gradient(rgba(217, 220, 20, 0.195), rgba(135, 207, 235, 0.121)); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 2em;
+}
+.div_horario{
+    border: 2px solid rgb(225, 164, 253);
+    border-radius: 15px;
+    padding-top: 1em;
 }
 .p_horarios{
     font-size: 2em;
     text-align: center;
     /* background-color: rgba(255, 255, 255, 0.192); */
-    margin-top: 2em;
-    padding: 2em;
+    /* margin-top: 1em; */
+    /* padding: 1em; */
+    border: 2px solid rgb(225, 164, 253);
+    border-radius: 15px;
 }
 .section_desc{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-evenly;
     background-color: rgb(225, 164, 253);
-    background-image: url("../../assets/imgs/sunset_mar.jpg");
+    background-image: linear-gradient(rgba(35, 2, 134, 0.09), rgb(0, 0, 0)), url("../../assets/imgs/sunset_mar.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 8em 2em;
+    padding: 5em 2em;
 }
 .div_descri{
     display: flex;
     border: 2px solid black;
     border-radius: 15px;
-    background-color: #ffffff9d;
+    background-color: rgb(225, 164, 253);
+    margin: 0.5em;
 }
 .p_descri{
-    padding: 1em;
-    font-size: 1em;
-    color: black;
+    padding: 0.5em;
+    font-size: 1.5em;
+    /* color: black; */
     text-align: center;
 }
 .section_local{
@@ -130,5 +152,9 @@ body{
     border-radius: 15px;
     justify-content: space-around;
     align-items: center;
+    padding-top: 1em;
+}
+.row {
+    --bs-gutter-x: 0rem !important;
 }
 

@@ -12,10 +12,10 @@
 </head>
 <body>
     <header class="header_val">
-        <div class="col-4 div_img_logo">
+        <div class="col-6 div_img_logo">
             <img class="img_logo_val" src="./assets/imgs/val_logo.png" alt="Logo Val">
         </div>
-        <div class="col-8 div_menu">
+        <div class="col-6 div_menu">
             <ul class="ul_menu">
                 <ol class="ol_menu"><a href="./index.php" class="link_menu">Início</a></ol>
                 <ol class="ol_menu"><a href="./sobre_val.php" class="link_menu">Sobre</a></ol>
@@ -33,10 +33,11 @@
     </header>
     <main class="main_page_val">
         <section class="row section_horario">
-            <div class="col-10">
+            <div class="col-10 div_horario">
                 <p class="p_horarios">
-                    Localizado na Barra da Lagoa - Florianópolis SC <a href="#sect_local">(Click ->)</a><br>
-
+                    Localizado na Barra da Lagoa - Florianópolis SC <a class="link_menu" href="#sect_local">(Mapa)</a><br>
+                </p>
+                <p class="p_horarios">
                 Dias do atendimento<br>
                 Segunda-feira - Quarta feira – Sexta-feira a partir das: 13:30h<br>
                 Quinta-feira a partir das 18:00h<br>
@@ -50,22 +51,22 @@
             </div>
         </section>
         <section class="section_desc">
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
-                <p class="p_descri">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-10 div_descri">
+                <p class="p_descri link_menu">
                 <i class="fa-solid fa-house-medical-circle-check fa-2xl"></i><br><br>
                     Saúde, física, mental e espiritual não se adquire e sim se conquista!
                     Saiba que o equilíbrio entre as três partes que compõem o ser humano deve estar em homeostasia, pois o bem estar físico depende o do seu estado psicológico que está ligado diretamente com seu lado espiritual.
                 </p>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
-                <p class="p_descri">
+                <p class="p_descri ">
                 <i class="fa-solid fa-heart-circle-check fa-beat-fade fa-2xl"></i><br><br>                   
                     Se você está com problemas no seu relacionamento ou buscando a sua outra metade.<br>
                     Eu acredito que todos têm o poder de mudar suas vidas para melhor e estou aqui para ajudá-lo em sua jornada.
 
                 </p>
             </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
                 <i class="fa-solid fa-user-tie fa-2xl"></i><br><br>
                     Conheça e entenda mais a si mesmo para encontrar clareza e sabedoria e poder tomar decisões sábias no presente e ter um futuro prospero e feliz.<br> 
@@ -81,10 +82,10 @@
         </section>
     </main>
     <footer class="row row_footer">
-        <div class="col-3 text-center">2023</div>
-        <div class="col-3 text-center">Tweeter</div>
-        <div class="col-3 text-center">Facebook</div>
-        <div class="col-3 text-center">Instagram</div>
+        <div class="col-3 text-center link_menu">&copy; 2023</div>
+        <div class="col-3 text-center"><a class="link_menu" href="#" target="_blank" title="Twitter"><i class="fa-brands fa-twitter fa-xl"></i><br>Twitter</a></div>
+        <div class="col-3 text-center"><a class="link_menu" href="#" target="_blank" title="Facebook"><i class="fa-brands fa-facebook fa-xl"></i><br>Facebook</a></div>
+        <div class="col-3 text-center"><a class="link_menu" href="#" target="_blank" title="Instagram"><i class="fa-brands fa-instagram fa-xl"></i><br>Instagram</div>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
