@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/val.css">
     <link rel="shortcut icon" href="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/665e0c0756.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header_val">
@@ -51,14 +52,14 @@
         <section class="section_desc">
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
-                    SAÚDE<br>
+                <i class="fa-solid fa-house-medical-circle-check fa-2xl"></i><br><br>
                     Saúde, física, mental e espiritual não se adquire e sim se conquista!
                     Saiba que o equilíbrio entre as três partes que compõem o ser humano deve estar em homeostasia, pois o bem estar físico depende o do seu estado psicológico que está ligado diretamente com seu lado espiritual.
                 </p>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
-                    AMOR<br>                     
+                <i class="fa-solid fa-heart-circle-check fa-beat-fade fa-2xl"></i><br><br>                   
                     Se você está com problemas no seu relacionamento ou buscando a sua outra metade.<br>
                     Eu acredito que todos têm o poder de mudar suas vidas para melhor e estou aqui para ajudá-lo em sua jornada.
 
@@ -66,7 +67,7 @@
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-10 div_descri">
                 <p class="p_descri">
-                    PROFISSIONAL<br>
+                <i class="fa-solid fa-user-tie fa-2xl"></i><br><br>
                     Conheça e entenda mais a si mesmo para encontrar clareza e sabedoria e poder tomar decisões sábias no presente e ter um futuro prospero e feliz.<br> 
                     Buscando compreender melhor seu lado emocional e espiritual, venha me conhecer e assim como milhares de pessoas mude sua vida para melhor.
 
