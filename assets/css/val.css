@@ -17,7 +17,7 @@ body{
     flex-wrap: wrap;
     width: 100%;
     background-color: rgb(225, 164, 253);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.031), rgba(0, 0, 0, 0.814)), url("../../assets/imgs/fundo_header_v2.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.568)), url("../../assets/imgs/fundo_header_v2.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -51,8 +51,8 @@ body{
 }
 .link_menu{
     text-decoration: none;
-    color: #fff;
-    text-shadow: 1px 1px 3px black;
+    color: #000000;
+    text-shadow: 1px 1px 2px black;
 }
 .h1_titulo{
     color: #fff;
@@ -70,7 +70,7 @@ body{
 }
 .p_texto_desc{
     max-width: 75%;
-    background-color: rgba(0, 0, 0, 0.439);
+    background-color: rgba(0, 0, 0, 0.545);
     border-radius: 10px;
     margin-left: 2em;
     margin-bottom: 2em;
@@ -88,8 +88,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(225, 164, 253);
-    background-image: linear-gradient(rgba(0, 25, 215, 0.09), rgba(0, 0, 0, 0.549)), url("../../assets/imgs/por-do-sol-ceu-azul.jpg");
-    /* background: content-box radial-gradient(rgba(217, 220, 20, 0.195), rgba(135, 207, 235, 0.121)); */
+    background-image: linear-gradient(rgba(33, 53, 206, 0.2), rgba(0, 0, 0, 0.549)), url("../../assets/imgs/por-do-sol-ceu-azul.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -97,17 +96,30 @@ body{
     padding: 2em;
 }
 .div_horario{
-    border: 2px solid rgb(225, 164, 253);
+    /* border: 2px solid rgb(225, 164, 253); */
     border-radius: 15px;
-    padding-top: 1em;
+    padding: 2em;
+    /* background-color: rgb(225, 164, 253); */
+}
+.div_horarios_vaz{
+    width: 100%;
+    justify-content: center;
+    /* width: fit-content; */
+    /* background-color: transparent; */
+}
+.p_horarios_vaz{
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
 }
 .p_horarios{
     font-size: 2em;
     text-align: center;
-    /* background-color: rgba(255, 255, 255, 0.192); */
-    /* margin-top: 1em; */
+    background-color: rgba(225, 164, 253, 0.34);
+    margin: 1em;
     /* padding: 1em; */
-    border: 2px solid rgb(225, 164, 253);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
 }
 .section_desc{
@@ -128,7 +140,8 @@ body{
     border: 2px solid black;
     border-radius: 15px;
     background-color: rgb(225, 164, 253);
-    margin: 0.5em;
+    /* margin: 0.5em; */
+    padding-top: 1em;
 }
 .p_descri{
     padding: 0.5em;
@@ -142,14 +155,14 @@ body{
     align-items: center;
 }
 .div_mapa{
-    max-height: 450px;
+    max-height: 400px;
 }
 .row_footer{
     display: flex;
     flex-wrap: wrap;
     min-height: 6em;
-    border: 2px solid black;
-    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* border-radius: 15px; */
     justify-content: space-around;
     align-items: center;
     padding-top: 1em;

@@ -17,7 +17,6 @@
         </div>
         <div class="col-6 div_menu">
             <ul class="ul_menu">
-                <ol class="ol_menu"><a href="./index.php" class="link_menu">Início</a></ol>
                 <ol class="ol_menu"><a href="./sobre_val.php" class="link_menu">Sobre</a></ol>
             </ul>
         </div>
@@ -34,17 +33,22 @@
     <main class="main_page_val">
         <section class="row section_horario">
             <div class="col-10 div_horario">
-                <p class="p_horarios">
-                    Localizado na Barra da Lagoa - Florianópolis SC <a class="link_menu" href="#sect_local">(Mapa)</a><br>
-                </p>
+                <div class="col-12 div_horarios_vaz">
+                    <p class="p_horarios_vaz">
+                        Barra da Lagoa - Florianópolis SC <a class="link_menu" href="#sect_local">(Mapa)</a><br>
+                    </p>
+                </div>
+                
                 <p class="p_horarios">
                 Dias do atendimento<br>
                 Segunda-feira - Quarta feira – Sexta-feira a partir das: 13:30h<br>
                 Quinta-feira a partir das 18:00h<br>
-
+                </p>
+                <p class="p_horarios_vaz">
                 Agende seu horário pelo WhatsApp <br>
                 (48) 99694-4797 ou telefone (48) 3232-4025 <br>
-                
+                </p>
+                <p class="p_horarios">
                 Terça-feira e sábado – Consulta com Carta de Baralho<br>
                 Somente com horário marcado
                 </p>
@@ -52,7 +56,7 @@
         </section>
         <section class="section_desc">
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-10 div_descri">
-                <p class="p_descri link_menu">
+                <p class="p_descri">
                 <i class="fa-solid fa-house-medical-circle-check fa-2xl"></i><br><br>
                     Saúde, física, mental e espiritual não se adquire e sim se conquista!
                     Saiba que o equilíbrio entre as três partes que compõem o ser humano deve estar em homeostasia, pois o bem estar físico depende o do seu estado psicológico que está ligado diretamente com seu lado espiritual.
@@ -77,7 +81,7 @@
         </section>
         <section class="section_local" id="sect_local">
             <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 div_mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1180.199124802853!2d-48.43183973364192!3d-27.574880015567615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1686514941218!5m2!1spt-BR!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1180.199124802853!2d-48.43183973364192!3d-27.574880015567615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1686514941218!5m2!1spt-BR!2sbr" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
