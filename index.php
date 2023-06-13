@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Val - Consulta Espiritual</title>
     <link rel="stylesheet" href="./assets/css/val.css">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="./assets/imgs/vidente.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/665e0c0756.js" crossorigin="anonymous"></script>
 </head>
@@ -17,14 +17,14 @@
         </div>
         <div class="col-6 div_menu">
             <ul class="ul_menu">
-                <ol class="ol_menu"><a href="./sobre_val.php" class="link_menu">Sobre</a></ol>
+                <ol class="ol_menu"><a href="#" class="link_menu">Sobre</a></ol>
             </ul>
         </div>
         <div class="col-12">
             <h1 class="h1_titulo">Consulta Espiritual</h1>
         </div>
         <div class="col-12">
-            <h2 class="h2_subtit">Venha conhecer meu trabalho, na ilha da Magia Florianópolis</h2>
+            <h2 class="h2_subtit">Venha conhecer meu trabalho na ilha da Magia, Florianópolis</h2>
             <p class="p_texto_desc">
             A Valdete é uma guia espiritual que oferece consultas para ajudar as pessoas a descobrir mais sobre si mesmas e a encontrar o seu caminho. Com mais de 35 anos de experiência, ela oferece consultas personalizadas para ajudar a desvendar mistérios e desafios da vida. Descubra a sua verdadeira essência com Val e comece a trilhar um caminho de prosperidade e felicidade.
             </p>
