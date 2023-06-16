@@ -5,6 +5,7 @@
     <title>Val - Consulta Espiritual</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
     <meta name="description" content="Val é uma guia espiritual que oferece consultas espirituais para ajudar as pessoas a descobrir mais sobre si mesmas e a encontrar o seu caminho, localizado na ilha da magia Florianópolis" />
     <link rel="canonical" href="https://val.floripa.br/">
     <link rel="stylesheet" href="./assets/css/val.css">
@@ -16,11 +17,6 @@
     <header class="header_val">
         <div class="col-6 div_img_logo">
             <img class="img_logo_val" src="./assets/imgs/val_logo.png" alt="Logo Val">
-        </div>
-        <div class="col-6 div_menu">
-            <ul class="ul_menu">
-                <ol class="ol_menu"><a href="#" class="link_menu">Sobre</a></ol>
-            </ul>
         </div>
         <div class="col-12">
             <h1 class="h1_titulo">Consulta Espiritual</h1>
@@ -47,8 +43,9 @@
                 Quinta-feira a partir das 18:00h<br>
                 </p>
                 <p class="p_horarios_vaz">
-                Agende seu horário pelo WhatsApp <br>
-                (48) 99694-4797 ou telefone (48) 3232-4025 <br>
+                Agende seu horário: <br>
+                <img src="./assets/imgs/logo_whatsapp_v3.png" width="45px" height="45px" alt="WhatsApp">(48) 99694-4797<br>
+                <i class="fa-solid fa-phone"></i>(48) 3232-4025<br>
                 </p>
                 <p class="p_horarios">
                 Terça-feira e sábado – Consulta com Carta de Baralho<br>
