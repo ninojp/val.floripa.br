@@ -2,9 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <title>Val - Consulta Espiritual</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Val - Consulta Espiritual</title>
+    <meta name="description" content="Val é uma guia espiritual que oferece consultas espirituais para ajudar as pessoas a descobrir mais sobre si mesmas e a encontrar o seu caminho, localizado na ilha da magia Florianópolis" />
+    <link rel="canonical" href="https://val.floripa.br/">
     <link rel="stylesheet" href="./assets/css/val.css">
     <link rel="shortcut icon" href="./assets/imgs/vidente.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
