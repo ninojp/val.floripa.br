@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+sitemap: val.floripa.br/sitemap.xml
